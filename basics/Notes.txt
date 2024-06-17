@@ -1,1 +1,2 @@
 React Basics
+Adding another note to file
