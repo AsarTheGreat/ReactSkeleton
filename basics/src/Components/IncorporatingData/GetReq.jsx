@@ -7,8 +7,8 @@ function GetUser({login})
     useEffect(() => {
         fetch(`https://api.github.com/users/${login}`)
         .then(response => response.json())
-        .then(setData)
-        .catch(console.error);
+        .then((result) => setData(result))
+        .catch((error) => console.error(error));
     }, [login]);
 
     if(data)

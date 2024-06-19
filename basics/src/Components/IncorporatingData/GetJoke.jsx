@@ -5,15 +5,18 @@ function JokeCall()
     const [data, setData] = useState();
 
     useEffect(() => {
-        fetch(`https://official-joke-api.appspot.com/random_joke/`)
-        .then(response => response.json())
-        .then(setData)
-        .catch(console.error);
-    },[]); //The [] ensures that the call is only made once
+        fetch(`https://icanhazdadjoke.com/`, {
+            headers:{
+            'Accept': 'application/json'
+        }
+    }).then((response) => response.json())
+        .then((result) => setData(result))
+        .catch((error) => console.error(error));
+    },[]);//The [] ensures that the call is only made once
 
     if(data)
     {
-        return <div>{data.setup} {data.punchline}</div>;
+        return data.joke;
     }
     else
     {
@@ -23,5 +26,7 @@ function JokeCall()
 
 export default function GetJoke()
 {
-    return(<JokeCall></JokeCall>);
+    return(<div>
+        {JokeCall()}
+    </div>);
 }
