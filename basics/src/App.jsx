@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       Hello World and React!
-      <Welcome></Welcome>
+      {/* <Welcome></Welcome>
       <WelcomeName></WelcomeName>
       <WelcomeUserButton></WelcomeUserButton>
       <Counter></Counter>
@@ -22,7 +22,7 @@ function App() {
       <MyUseEffect></MyUseEffect>
       <MyUseState></MyUseState>
       <MyUseLayoutEffect></MyUseLayoutEffect>
-      <GetReq></GetReq>
+      <GetReq></GetReq> */}
       <GetJoke></GetJoke>
     </div>
   );

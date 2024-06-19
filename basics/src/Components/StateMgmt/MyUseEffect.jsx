@@ -9,7 +9,9 @@ export default function MyUseEffect(){
 
     return(
         <div>
-            <input type="checkbox" value={checked} onChange={(e) => setChecked(checked => !checked)}></input>
+            <input type="checkbox" value={checked} 
+            onChange={(e) => setChecked(checked => !checked)}>
+            </input>
             {checked ? "checked" : "not checked"}
         </div>
     );
