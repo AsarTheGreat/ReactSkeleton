@@ -23,6 +23,9 @@
     outline: none;
 }
 
+/*
+cursor options https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+*/
 .modernButton
 {
     display: inline-block;

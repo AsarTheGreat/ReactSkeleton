@@ -1,9 +1,9 @@
 import styles from '../css/footer.module.css'
 
-export default function Footer({completedTodos, totalTodos})
+//Need to pass value completedTodos and totalTodos
+export default function Footer()
 {
-    return (<div className={styles.header}>
-        <span className={styles.item}>Completed:{completedTodos}</span> 
-        <span className={styles.item}>Total:{totalTodos}</span>       
-    </div>);
+    return (
+        <div>Todo Footer</div>
+    );
 }

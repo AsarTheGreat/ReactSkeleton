@@ -2,3 +2,25 @@ Creating React app using Vite:
 1. npm create vite@latest
 2. npm install
 3. npm run dev
+
+Create Header
+    Add background-color
+    Add Header Text
+Create Form content
+    Add form element
+    Add input textbox and button
+    Add handleSubmit function
+    Add color and font-size and cursor
+Create TodoList
+    Add div to return li with todos using map
+    Update map method to import TodoItem
+    Add color
+Create TodoItem
+    Add div with span for text
+    Add delete span and delete method
+    Add handClick method and strikeOut variable
+    Add color and font-size
+Create Footer
+    Add variables for completed and total in Todo
+    Add div for show variables
+    Add background-color

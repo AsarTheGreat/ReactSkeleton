@@ -17,6 +17,9 @@
     border: 1px solid blue;
 }
 
+/*
+cursor options https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+*/
 .deleteButton
 {
     float: right;
@@ -29,6 +32,9 @@
     cursor: pointer;
 }
 
+/*
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+*/
 .completed
 {
     text-decoration: line-through;
