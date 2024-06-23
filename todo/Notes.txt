@@ -6,21 +6,25 @@ Creating React app using Vite:
 Create Header
     Add background-color
     Add Header Text
-Create Form content
+Create Form content(pg. 116)
     Add form element
     Add input textbox and button
     Add handleSubmit function
     Add color and font-size and cursor
 Create TodoList
     Add div to return li with todos using map
-    Update map method to import TodoItem
     Add color
 Create TodoItem
-    Add div with span for text
+    Add nested DIV of li element
+    Add span for item name
     Add delete span and delete method
     Add handClick method and strikeOut variable
     Add color and font-size
+Update TodoList
+    Update map method to import TodoItem
+    Add functionality to sort
 Create Footer
     Add variables for completed and total in Todo
+        completedTodos, totalTodos
     Add div for show variables
     Add background-color
